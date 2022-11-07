@@ -1,0 +1,24 @@
+{
+    "name": "jmnn/crub",
+    "description": "Packages crub laravel basic",
+    "type": "laravel",
+    "autoload": {
+        "psr-4": {
+            "Jmnn\\Crub\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jmnn",
+            "email": "quangvq812@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jmnn\\Crub\\CrubServiceProvider"
+            ]
+        }
+    }
+}
